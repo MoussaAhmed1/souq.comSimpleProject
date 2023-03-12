@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: beige !important;
+}
+*{
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+nav .navbar-brand img{
+  width: 40%;  
+}
+.products .card-img, .products .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 50%;
+    margin:  auto;
+} 
+.products .card{
+  overflow: hidden;
+  /* border: #FFB830 .5px solid !important; */
+}
+.products svg{
+  position: relative;
+  top: -4px;
+  margin-bottom: -8%;
+}
+.products svg:last-child{
+  
+    /* width: 100%; */
+    /* height: 41px; */
+    /* bottom: -8%; */
+}
+/* .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  
+} */
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav a.active {
+  color: #000;
+}
+
+.navbar-dark .navbar-nav a {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 1.2em;
+  /* margin: auto; */
+  padding-left: 2em;
+  text-decoration: none;
+  
+}
+.navbar-dark .navbar-nav {
+  margin: auto
+}
+.cart{
+  padding: 80px 1px;
+}
+.Home,.contactUS,.about{
+  height: 600px;
+}
